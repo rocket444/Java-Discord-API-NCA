@@ -16,7 +16,7 @@ public class Main extends ListenerAdapter {
 
     public static void main(String[] args) throws LoginException {
         JDABuilder.createDefault(BOT_TOKEN)
-                .setActivity(Activity.listening("to Meetcetera"))
+                .setActivity(Activity.listening("Meetcetera"))
                 .addEventListeners(new Main())
                 .setMemberCachePolicy(MemberCachePolicy.ALL)
                 .enableIntents(GatewayIntent.getIntents(GatewayIntent.ALL_INTENTS))
