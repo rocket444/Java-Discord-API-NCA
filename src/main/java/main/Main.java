@@ -34,7 +34,7 @@ public class Main extends ListenerAdapter {
      *
      * Tasks:
      * Create a single word command that sends a message in the same text channel.
-     * Add a Reaction to the newly created message.
+     * Add a Reaction to the newly created message.(you can use the emote :thumbsup:)
      */
     @Override
     public void onMessageReceived(@NotNull MessageReceivedEvent event) {
@@ -48,7 +48,7 @@ public class Main extends ListenerAdapter {
      * @param event the message reaction event
      *
      * Tasks:
-     * React to the reaction which was added but only if it was a message sent by a bot.
+     * React to the reaction which was added in the previous task but only if it was a message sent by a bot.
      * The reaction can be in form of another reaction, reply or editing the message the reaction was added to.
      * Additionally you can give the member that reacted a role. You can create a role in the options of your discord server.
      *              You can either search a role with the name or ID.
